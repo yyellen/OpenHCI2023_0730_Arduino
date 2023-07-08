@@ -23,8 +23,8 @@ void setup(){
 
 
 void loop(){
-  if(digitalRead(button) == HIGH){     //button pressed
-    val = analogRead(rotary);
+  if(){     //button pressed
+    // val = 
     u8x8.clearDisplay();
   }
   Serial.println(val);
