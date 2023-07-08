@@ -5,11 +5,11 @@ DHT dht11_p3(3, DHT11);
 #include <U8x8lib.h>
 U8X8_SSD1306_128X64_ALT0_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
 
-int rotary = 0;
-int LED = 4;
-int button = 6;
-int lightSensor = A6;
-int soundSensor = A2;
+// set pin
+// int LED
+// int button
+// int lightSensor
+// int soundSensor
 
 // set variables
 
