@@ -11,11 +11,7 @@ int button = 6;
 int lightSensor = A6;
 int soundSensor = A2;
 
-float temp;
-float humi;
-int volume;
-int bright;
-int val;
+// set variables
 
 void setup(){
   u8x8.begin();
@@ -27,7 +23,6 @@ void setup(){
 
 
 void loop(){
-  // check if the button is pressed
   if(digitalRead(button) == HIGH){     //button pressed
     val = analogRead(rotary);
     u8x8.clearDisplay();
