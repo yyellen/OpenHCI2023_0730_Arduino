@@ -28,7 +28,7 @@ void loop(){
     u8x8.clearDisplay();
   }
   Serial.println(val);
-  u8x8.setCursor(0, 33);
+  // setCursor
   if(val < 256){
     // temp mode 
   }
